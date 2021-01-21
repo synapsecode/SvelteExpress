@@ -2,8 +2,9 @@
 A Quick Way to start developing web apps using Svelte &amp; ExpressJS + SCSS
 
 ## Changelog
-- Added Scss
-- Added EXPPORT that means you can control which port you
+- Added Scss - because CSS is for uncles
+- Added EXPPORT that means you can control which port you run Express on
+ 
 
 
 
