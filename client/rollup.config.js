@@ -1,3 +1,4 @@
+import preprocess from 'svelte-preprocess';
 import svelte from 'rollup-plugin-svelte';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
@@ -38,6 +39,7 @@ export default {
 	},
 	plugins: [
 		svelte({
+			preprocess: preprocess(),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production

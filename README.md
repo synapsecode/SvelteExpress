@@ -1,5 +1,19 @@
 # SvelteExpress
-A Quick Way to start developing web apps using Svelte &amp; ExpressJS
+A Quick Way to start developing web apps using Svelte &amp; ExpressJS + SCSS
+
+## Changelog
+- Added Scss - because CSS is for uncles
+- Added EXPPORT that means you can control which port you run Express on
+ 
+
+
+
+To use custom PORTS for express, on Ubuntu,<br>
+`export  EXPPORT=3001`<br>
+or any port of choice
+
+To use custom PORTS for svelte, on Ubuntu, <br>
+`export PORT=5001`
 
 ## Instructions
 1. Git Clone this Repo<br>
